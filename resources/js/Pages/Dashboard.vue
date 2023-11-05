@@ -14,6 +14,8 @@ import Welcome from '@/Components/Welcome.vue';
 
         <div class="py-12">
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto atque corporis culpa distinctio dolores ea enim, fugiat laboriosam, officiis, perferendis placeat quo rem repellendus rerum soluta sunt totam voluptatum.</p>
+	            
                 <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-xl sm:rounded-lg">
                     <Welcome />
                 </div>
