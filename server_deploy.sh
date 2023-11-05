@@ -12,7 +12,6 @@ echo "Deploying application ..."
     git reset --hard origin/main
 
     # Install dependencies based on lock file
-    COMPOSER_ALLOW_SUPERUSER=1
     composer install --no-interaction --prefer-dist --optimize-autoloader
 
     # Migrate database
