@@ -18,10 +18,6 @@ echo "Deploying application ..."
     # Migrate database
     php artisan migrate --force
 
-    # Build front
-    npm install
-    npm run build
-
     # Note: If you're using queue workers, this is the place to restart them.
     # ...
 

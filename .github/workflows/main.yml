@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '21.x'
       - run: npm install
-      - run: npm run production
+      - run: npm run build
       - name: Deploy to production
         uses: appleboy/ssh-action@master
         with:
@@ -26,5 +26,4 @@ jobs:
           key: ${{ secrets.ED25519 }}
           script: |
             cd /var/www/html
-            .github/scripts/application_down.sh
-            .github/scripts/application_up.sh
+            ./server_deploy.sh
