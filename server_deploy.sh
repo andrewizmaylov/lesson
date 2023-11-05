@@ -5,6 +5,7 @@ echo "Deploying application ..."
 
 # Enter maintenance mode
 (php artisan down) || true
+    echo "No more messages"
 
     # Update codebase
     git fetch origin main
