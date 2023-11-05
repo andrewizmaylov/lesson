@@ -21,7 +21,7 @@ defineProps({
 
                 <Link v-if="canRegister" :href="route('register')" class="ms-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</Link>
             </template>
-	        <h1>pre</h1>
+	        <h1 class="text-[56px] font-bold text-center">pre</h1>
         </div>
 
         <div class="max-w-7xl mx-auto p-6 lg:p-8">
@@ -31,11 +31,7 @@ defineProps({
                 </svg>
             </div>
 	        
-	        <p class="max-w-xl p-4 rounded bg-red-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
-	        <p class="max-w-2xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	        <p class="max-w-3xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	        <p class="max-w-3xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-	        <p class="max-w-xl p-4 rounded bg-red-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
+	        <p class="max-w-xl p-4 rounded bg-red-100 my-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
 
             <div class="mt-16">
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
