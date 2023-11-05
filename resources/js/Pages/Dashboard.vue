@@ -6,6 +6,7 @@ import Welcome from '@/Components/Welcome.vue';
 <template>
     <AppLayout title="Dashboard">
         <template #header>
+	        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A architecto atque corporis culpa distinctio dolores ea enim, fugiat laboriosam, officiis, perferendis placeat quo rem repellendus rerum soluta sunt totam voluptatum.</p>
             <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
                 Dashboard
             </h2>
