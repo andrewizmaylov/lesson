@@ -35,7 +35,7 @@ defineProps({
 	            <h1 class="text-[56px] font-bold text-center">pre</h1>
 	            
 	            
-	            <section class="grid grid-cols-2 gap-4">
+	            <section class="grid grid-cols-3 gap-4">
 		            <p class="max-w-xl p-4 rounded bg-red-100 my-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
 		            <p class="max-w-xl p-4 rounded bg-red-100 my-6">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
 	            </section>
