@@ -11,12 +11,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set up Node
-        uses: actions/setup-node@v3
-        with:
-          node-version: '21.x'
-      - run: npm install
-      - run: npm run build
       - name: Deploy to production
         uses: appleboy/ssh-action@master
         with:
