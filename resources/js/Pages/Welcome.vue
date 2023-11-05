@@ -33,6 +33,7 @@ defineProps({
 	        <p class="max-w-xl p-4 rounded bg-red-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
 	        <p class="max-w-2xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	        <p class="max-w-3xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+	        <p class="max-w-3xl p-4 rounded bg-red-100">no regrets Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
 	        <p class="max-w-xl p-4 rounded bg-red-100">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis earum enim fugiat nam odit pariatur quae quia, quisquam? Consequuntur corporis cumque ex officia perferendis praesentium quod recusandae repellat voluptas voluptatem.</p>
 
             <div class="mt-16">
