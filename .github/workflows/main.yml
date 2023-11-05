@@ -17,5 +17,5 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
-          key: ${{ secrets.SSH2 }}
+          key: ${{ secrets.ED25519 }}
           script: 'cd /var/www/html && ./server_deploy.sh'
