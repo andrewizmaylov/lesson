@@ -14,8 +14,8 @@ jobs:
       - name: Deploy to production
         uses: appleboy/ssh-action@master
         with:
-          host: $
-          username: $
-          port: $
-          key: $
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          port: ${{ secrets.USERNAME }}
+          key: ${{ secrets.SSHKEY }}
           script: 'cd /var/www/html && ./server_deploy.sh'
