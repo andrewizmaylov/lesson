@@ -21,7 +21,7 @@ jobs:
       - run: npm run build
       - name: Commit built assets
         run: |
-          git config --local user.email "action@github.com"
+          git config --local user.email "your_email@example.com"
           git config --local user.name "GitHub Action"
           git checkout -B main
           git add -f public/
