@@ -7,6 +7,7 @@ echo "Deploying application ..."
 (php artisan down) || true
 
     # Update codebase
+    git config pull.rebase false
     git checkout main
     git pull origin main
 
