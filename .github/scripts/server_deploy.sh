@@ -5,11 +5,14 @@ echo "Deploying application ..."
 
 # Enter maintenance mode
 (php artisan down) || true
-    echo "No more messages"
 
     # Update codebase
+    git checkout main
     git fetch origin main
-    git reset --hard origin/main
+
+    # Merge Front from deploy
+    git merge deploy
+#    git reset --hard origin/main
 
     # Install dependencies based on lock file
     composer install --no-interaction --prefer-dist --optimize-autoloader
