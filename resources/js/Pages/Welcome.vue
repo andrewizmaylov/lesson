@@ -32,7 +32,7 @@ defineProps({
 
 
             <div class="mt-16">
-	            <h1 class="text-[56px] font-bold text-center">pre</h1>
+	            <h1 class="text-[56px] font-bold text-center">predomination</h1>
 	            
 	            
 	            <section class="grid grid-cols-3 gap-4">
