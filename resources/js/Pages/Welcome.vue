@@ -35,6 +35,7 @@ defineProps({
 	            <h1 class="text-[56px] font-bold text-center">Pretty women</h1>
 	            <h1 class="text-[56px] font-bold text-center">Walking down the street</h1>
 	            <h1 class="text-[56px] font-bold text-center">Walking down the street</h1>
+	            <h1 class="text-[56px] font-bold text-center">Walking down the street</h1>
 	            
 	            
 	            <section class="grid grid-cols-3 gap-4">

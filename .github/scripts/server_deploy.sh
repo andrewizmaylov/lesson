@@ -8,10 +8,10 @@ echo "Deploying application ..."
 
     # Update codebase
     git checkout main
-    git fetch origin main
+    git pull origin main
 
     # Merge Front from deploy
-    git merge deploy
+    git merge origin deploy
 #    git reset --hard origin/main
 
     # Install dependencies based on lock file
