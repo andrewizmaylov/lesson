@@ -38,4 +38,4 @@ jobs:
           key: ${{ secrets.ED25519 }}
           script: |
             cd /var/www/html
-            ./server_deploy.sh
+            .github/scripts/server_deploy.sh
